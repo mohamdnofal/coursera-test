@@ -13,3 +13,20 @@ p{
     font-size: x-large;
     margin: 5px;
 }
+a.Back{
+    margin-top: 10px;
+    font-size: xxx-large;
+    float: right;
+}
+a {
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  font-size: xxx-large;
+}
+
+p.family {
+  border: ridge;
+  border: double;
+  border-width: thick;
+}
