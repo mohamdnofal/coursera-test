@@ -1,32 +1,71 @@
-img{
-    width: 500px;
-    display: block;
-    margin-left: auto;
-  margin-right: auto;
-  margin-top: 1%;
-    
+
+
+*{
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
+
+  /* background-image: url("./img/h.png"); */
+  /* background: url("./img/h.png") no-repeat right center blue */
 }
+img {
+  width: 500px;
+  height: 500px;
+  margin-top: 1%;
+  /* margin-left: 50px; */
+  /* float: left; */
+  margin-left: 32%;
+}
+
 
 
 p{
     text-align: center;
     font-size: x-large;
-    margin: 5px;
 }
+
 a.Back{
     margin-top: 10px;
     font-size: xxx-large;
-    float: right;
+    /* float: right; */
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    width: 100px;
+    border: 10px solid black;
 }
+
 a {
   text-align: center;
   display: block;
   margin-top: 10px;
   font-size: xxx-large;
+  text-decoration: none;
+  clear: left;
+
 }
 
 p.family {
   border: ridge;
   border: double;
   border-width: thick;
+
+}
+
+a:hover{
+  color: red;
+  background-color: aqua;
+}
+
+
+
+
+#moh{
+  color: red;
+}
+
+
+.scroll{
+  margin: 50px 300px 50px 300px;
+  border: 10px solid black;
+
 }
